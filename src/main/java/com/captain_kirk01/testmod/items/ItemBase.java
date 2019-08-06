@@ -12,7 +12,7 @@ public class ItemBase extends Item implements IHasModel{
 	public ItemBase(String name) {
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MATERIALS);
+		setCreativeTab(CreativeTabs.MISC);
 		
 		ModItems.ITEMS.add(this);
 	}
@@ -20,7 +20,6 @@ public class ItemBase extends Item implements IHasModel{
 	
 	@Override
 	public void registerModels() {
-		// TODO Auto-generated method stub
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 
