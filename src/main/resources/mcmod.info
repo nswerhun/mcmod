@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
+  "modid": "tm",
+  "name": "Test Mod",
+  "description": "Messing around with modding",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "https://github.com/nswerhun/minecraftMod",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["captain_kirk01 "],
+  "credits": "Me",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
